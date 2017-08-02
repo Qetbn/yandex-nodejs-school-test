@@ -46,6 +46,16 @@ MyForm.validate = function (data) {
                     errorFields.push(key);
                 }
                 break;
+            case "fio":
+                var pattern = /^([A-Za-z]+)\s([A-Za-z]+)\s([A-Za-z]+)$/;
+                if (pattern.test(value)) {
+                    formItem.classList.remove('error');
+                } else {
+                    formItem.classList.add('error');
+                    isValid = false;
+                    errorFields.push(key);
+                }
+                break;
         }
     }
     return {
