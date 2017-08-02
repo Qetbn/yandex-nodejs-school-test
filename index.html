@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Yandex NodeJs School</title>
+    <link rel="stylesheet" href="style.css" media="all"/>
+    <script src="script.js"></script>
+</head>
+<body>
+<div id="resultContainer"></div>
+<form id="myForm" action="api/progress.json">
+    <label>
+        <span>ФИО</span>
+        <input name="fio" type="text" value=""/>
+    </label>
+    <label>
+        <span>Email</span>
+        <input name="email" type="text" value=""/>
+
+    </label>
+    <label>
+        <span>Телефон</span>
+        <input name="phone" type="text" value=""/>
+    </label>
+    <input type="submit" id="submitButton" value="Отправить"/>
+</form>
+</body>
+</html>

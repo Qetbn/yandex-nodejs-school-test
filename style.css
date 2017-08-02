@@ -1,0 +1,26 @@
+* {
+    margin:0;
+    padding: 0;
+}
+body {
+    margin: 0 20px;
+}
+#resultContainer {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+#resultContainer:empty {
+    border: medium none;
+}
+#myForm label {
+    display: block;
+    margin: 0 0 10px;
+}
+#myForm label span {
+    min-width: 80px;
+    display: inline-block;
+}
+.error {
+    border: 1px solid red;
+}
