@@ -3,7 +3,7 @@
     padding: 0;
 }
 body {
-    margin: 0 20px;
+    margin: 20px;
 }
 #resultContainer {
     margin: 20px 0;
@@ -12,6 +12,8 @@ body {
 }
 #resultContainer:empty {
     border: medium none;
+    margin: 0;
+    padding: 0;
 }
 #myForm label {
     display: block;
