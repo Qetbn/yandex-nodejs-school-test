@@ -15,6 +15,15 @@ body {
     margin: 0;
     padding: 0;
 }
+#resultContainer.success {
+    border-color: green;
+}
+#resultContainer.error {
+    border-color: red;
+}
+#resultContainer.progress {
+    border-color: yellow;
+}
 #myForm label {
     display: block;
     margin: 0 0 10px;

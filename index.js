@@ -116,6 +116,7 @@ MyForm.submit = function () {
             return false;
         }
         var result = JSON.parse(xhr.responseText);
+        resultBlock.className = result.status;
         if (result.status == "success" || result.status == "error") {
             submitBtn.removeAttribute('disabled');
         }
